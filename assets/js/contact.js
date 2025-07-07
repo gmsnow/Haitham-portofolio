@@ -13,7 +13,7 @@ document.getElementById("contact-form").addEventListener("submit", async functio
     success.style.display = "none";
 
     try {
-      const response = await fetch("https://hitham-portfoilo.onrender.com", {
+      const response = await fetch("https://hitham-portfoilo.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
