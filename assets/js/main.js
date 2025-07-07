@@ -245,7 +245,7 @@
     success.style.display = "none";
 
     try {
-      const response = await fetch("https://your-backend-url.com/contact", {
+      const response = await fetch("https://hitham-portfoilo.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
